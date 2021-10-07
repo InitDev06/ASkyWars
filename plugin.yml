@@ -1,0 +1,13 @@
+main: org.aisimple.dev.ASkyWars
+name: ASkyWars
+version: 1.0
+author: [AISimple]
+softdepends: [PlaceholderAPI]
+permissions:
+  askywars.all:
+    children:
+      - askywars.info
+      - askywars.help.admin
+commands:
+  askywars:
+    aliases: [asw, sw]

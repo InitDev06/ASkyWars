@@ -1,0 +1,36 @@
+# Author - AISimple 
+# Version - 1.10
+# SourceCode - https://github.com/GitSimple-Dev/ASkyWars
+#------------
+# Description:
+# 
+#  This is a full customizable skywars plugin, you can customize to any options, and the support is from 1.8 to 1.10 (Soon 1.13),
+#  the plugin currently have support for only two idioms (English & Spanish), you can select you favorite language using the id's,
+#  English;EN, Spanish;ES, the plugin automatly load only the file for the specified idiom.
+#
+#  Also you can specify the max games per server, if you like have multiples games, insert a -1, but, caution, this is recommended for High-Performance
+#  Servers, if your server crash, don't reclaim on the plugin page, this is your responsability!
+#
+#  But, also the plugin continues in developing, this is only a beta, when the plugin is terminated totaly, will launch a oficial release!
+#  If you have cuestions, or finds any error, can comment on the plugin pagine. (https://spigotmc.org/resources/12345)
+#------------
+# Placeholders:
+#
+#  %player_name% - Returns player name
+#  %max_count% - Returns max players count per game
+#  %min_count% - Returns min players count per game
+#  %coins%/%points% - Returns player points
+#  %game% - Returns game name
+#  %state% - Returns game state
+language: EN
+# this define the language of plugin, actually the supported languages is English and Spanish.
+main-lobby: 
+# this path contains the mainlobby location.
+use-title: true
+use-subtitle: true
+# use titles when the player join to any arena or when join to server.
+sounds: true
+id: ORB_PICKUP
+# when the player join to any game, will reproduce this sound
+max-arenas: -1
+# if is -1, can create multiples arenas on your server. (Recommended for High-Performance Servers)

@@ -1,0 +1,50 @@
+# the messages will separated by sections, to edit don't delete any path, or when the plugin load the file, will be show a error.
+# =====================
+# |  Manager-Section  |
+# =====================
+messages:
+  missing-permission: "&8[&bASW&8] &cno tienes el permiso necesario para esto! &e%permission%"
+  must-be-player: "&8[&bASW&8] &ceste comando no puede ser ejecutado en consola!"
+  cmd-args: "&8[&bASW&8] &fpara entrar a un mapa aleatorio usa el comando &b/asw join &fsi quieres elegir un mapa, usa &b/asw join <mapa>"
+  cmd-reload: "&cPara recargar el plugin, es necesario reiniciar el servidor."
+  cmd-null: "&8[&bASW&8] &ceste sub-comando no existe!"
+
+# =============S=====
+# |  Game-Section  |
+# ==================
+  game-join: "&8[&bASW&8] &b%player_name% &fha entrado al juego &a%count%&7/&a%max_count%"
+  game-join-sound: NOTE_PLING
+  game-leave: "&8[&bASW&8] &b%player_name% &fse ha ido del juego &a%count%&7/&a%max_count%"
+  game-leave-sound: FALL
+  game-starting: "&8[&bASW&8] &fjugadores maximos alcanzados, el juego empezara pronto."
+  game-starting-title: "&a&lSTARTING THE GAME..."
+  game-starting-subtitle: "&fel juego empezara en &b%regressive_time% &fsegundo(s)"
+  game-cancelled: "&8[&bASW&8] &fel juego no tiene la cantidad de jugadores necesarias, se ha cancelado la cuenta regresiva!"
+  game-started: "&8[&bASW&8] &ael juego ha comenzado!"
+  game-started-title: "&a&lJUEGO EMPEZADO!"
+  game-started-subtitle: "&fa &c&lLUCHAR!"
+  game-end: "&8[&bASW&8] &9el juego ha terminado! &aEl ganador es &8- &e%winner_name%"
+  game-is-started: "&8[&bASW&8] &cel juego ya ha empezado!"
+  kill-you-title: "&c&lHAS MUERTO!"
+  kill-by-player: "&8[&bASW&8] &b%dead_name% &fha sido brutalmente asesinado por &a%killer_name%"
+  kill-by-fall: "&8[&bASW&8] &b%dead_name% &fha intentado volar!"
+  kill-by-vaccumm: "&8[&bASW&8] &fse cayo al vacio!"
+  kill-by-fire: "&8[&bASW&8] &b%dead_name% &fse ha quemado hasta la muerte!"
+  kill-by-lava: "&8[&bASW&8] &b%dead_name% &fha intentado nadar en lava!"
+  kill-by-bow: "&8[&bASW&8] &b%dead_name% &fha sido atravesado por una flecha de &a%killer_name%"
+  kill-unknown: "&8[&bASW&8] &b%dead_name% &fha muerto de forma misteriosa!"
+  kill-sound: FIREWORK
+
+# ===================
+# |  Arena-Section  |
+# ===================
+  arena-setup: "&8[&bASW&8] &fpara crear una arena usa &b/arena create <nombre> &fpara removerla &a/arena remove <nombre>"
+  arena-missing-name: "&8[&bASW&8] &cfalta un nombre para la arena!"
+  arena-exists: "&8[&bASW&8] &cesta arena ya existe!"
+  arena-created: "&8[&bASW&8] &fla arena &b%arena_name% &fha sido &acreada &fcorrectamente."
+  arena-deleted: "&8[&bASW&8] &fla arena &b%arena_name% &fha sido &cremovida &fcorrectamente."
+  arena-enabled: "&8[&bASW&8] &fla arena &b%arena_name% &fha sido &aactivada &fcorrectamente."
+  arena-disable: "&8[&bASW&8] &fla arena &b%arena_name% &fha sido &cdesactivada &fcorrectamente."
+  arena-unknown: "&8[&bASW&8] &cla arena con el nombre &e%arena_name% &cno existe!"
+  arena-is-disabled: "&8[&bASW&8] &fla arena esta desactivada por ahora!"
+  arena-is-restarting: "&8[&bASW&8] &fla arena se esta reiniciando ahora!"

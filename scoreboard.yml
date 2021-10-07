@@ -1,0 +1,18 @@
+﻿scoreboard: 
+# this is the title of scoreboard.
+  name: "&bASkyWars"
+# this is the lines will be show on the scoreboard, you can add a max of 15 lines!
+  lines:
+  - "&l"
+  - "&fNick: &b%player_name%"
+  - "&fRank: &r%vault_prefix%"
+  - "&fLevel: &e%level%"
+  - "&fExperience: &a%max_experience%"
+  - " "
+  - "&fKills: &973843"
+  - "&fWins: &b45760"
+  - "&fDeaths: &c65458"
+  - "&9"
+  - "&fConnected: &d%connected%"
+  - ""
+  - "&amc.spigotmc.org"
