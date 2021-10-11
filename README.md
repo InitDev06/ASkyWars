@@ -1,2 +1,2 @@
 # ASkyWars
-A test plugin, and very simple
+A try of create a Skywars plugin.
