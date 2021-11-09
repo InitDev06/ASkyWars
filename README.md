@@ -1,2 +1,2 @@
 # ASkyWars
-A try of create a Skywars plugin.
+Deprecated project
